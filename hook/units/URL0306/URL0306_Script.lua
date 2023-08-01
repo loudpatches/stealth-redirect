@@ -6,7 +6,6 @@ do
 
   local baseunit = import('/units/URL0306/URL0306_Script.lua').URL0306
 
-  baseunit = URL0306
   oldOnStopBeingBuilt = baseunit.OnStopBeingBuilt
   addMissileRedirect =
     function(self,builder,layer)
